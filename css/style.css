@@ -1,0 +1,387 @@
+/* ========================================
+            //body area//
+======================================== */
+
+
+body{
+    width: 90%;
+    margin: 0 auto;
+
+
+
+}
+p{
+
+    color: #3E3E3E;
+}
+
+/* ========================================
+            //menu area//
+======================================== */
+
+
+.menu {
+    padding-top: 5px;
+    float: right;
+    width: 100%;
+    
+    display: block;
+    
+    
+}
+
+.menu ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 142px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-family: Roboto;
+    
+}
+
+.menu ul li a {
+ 
+    color: #3C3C3C;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu ul li a:hover {
+    color: rgb(118, 150, 240);
+}
+
+
+/* ========================================
+            //top section area//
+======================================== */
+
+.top_section{
+
+    height: auto;
+
+
+}
+.tag{
+    display: inline-block;
+    margin-top:119px;
+    margin-left: 135px;;
+    height: 160px;
+    width: 20%;
+    float: left;
+    
+}
+.hello{
+   margin-top: 0;
+   margin-bottom: 0;
+    
+    font-weight: 700;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    
+    color: #363958;
+}
+
+
+.rov_dev{
+
+   
+    margin-top: -20px;
+    margin-bottom: 0;
+    
+    font-weight: 700;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    color: #FF8367;
+}
+.top_text{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 3px;
+    
+}
+.hire_me{
+
+    text-decoration: none;
+    color: white;
+    padding: 18px 56px 18px 57px;
+    font-weight: 500;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 16px;
+    background-image: linear-gradient( 45deg, lightsalmon,tomato);
+    margin-top: 30px;
+    display: inline-block;
+
+
+}
+.top_img{
+
+    background-image: url("../image/pic1\ \(1\).png");
+    height: 613px;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-right: 255px;
+    
+    padding-top: 20px;
+    width: 39%;
+    float: right;
+}
+.about{
+
+    height: 700px;
+}
+.img_about{
+
+
+    background-image: url("../image/pic2\ \(1\).png");
+    height: 645px;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 40%;
+    margin-left: 113px;
+    float: left;
+}
+.about_text{
+
+    font-family:Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #363958;
+    float: left;
+    margin-left: 100px;
+    width: 30%;
+    margin-bottom: 0;
+    
+
+
+}
+.lorem{
+
+    width: 30%;
+    float: left;
+    color: #3E3E3E;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-family: roboto;
+    margin-left: 100px;
+   
+    
+}
+.CV{
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 18px 56px 18px 57px;
+    font-weight: 500;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 16px;
+    background-image: linear-gradient( 45deg, lightsalmon,tomato);
+    width: auto;
+    margin-right: 590px;
+    margin-top: 24px;
+
+
+
+}
+.fa-download{
+    margin-right: 3px;
+}
+
+.projects{
+
+    background-color: #E5E5E5;
+    height: 600px;
+    float: left; 
+    margin-top: 100px;
+    width: 100%;
+    display: inline-block;
+
+}
+.last_project{
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    font-weight: 700;
+    color: #3E3E3E;
+    text-align: center;
+
+}
+.span_h1{
+
+    color: #F46060;
+
+}
+.container{
+
+    width: 1260px;
+    margin: 0 auto;
+}
+.cart1{
+   
+
+    width:370px;
+    height: 374px;
+    float: left;
+  
+    border:1px solid #3E3E3E;
+    margin-right: 20px; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px  gray ;
+    border-style: none;
+    padding-top: 10px ;
+    padding-left: 25px;
+   
+   
+}
+.cart2{
+    
+    width: 370px;
+    float: left;
+    height: 374px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:1px solid #3E3E3E;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px  gray ;
+    border-style: none;
+    padding-top: 10px;
+    padding-left: 25px;
+    
+    
+}
+.cart3{
+    
+    width: 370px;
+    float: left;
+    height: 374px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:1px solid #3E3E3E;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px  gray ;
+    border-style: none;
+    padding-top: 10px;
+    padding-left: 25px;
+  
+}
+.container h1 {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+
+}
+.container p{
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #6C6C6C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    margin-top: 200px;
+  
+}
+
+.contact{
+    background-image: url("../image/Group_33094_1\ \(1\).png"); 
+    width: 70%;
+    margin: 0 auto;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 233px;
+    margin-top: 100px;
+    
+}
+
+.text{
+    font-size: 25px;
+    padding: 50px 0px 0px 50px;
+    float: left;
+    color: white;
+    
+}
+
+.text h1{
+    color: white;
+    margin-left: 40px;
+}
+
+.footer-right{
+    float: right;
+    padding: 70px 50px 30px 0px;
+}
+
+.footer-right button{
+    height: 60px;
+    border-radius: 10px;
+}
+
+.social{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.social p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(65, 60, 60);
+}
+
+.social h1{
+    color: #363958;
+}
+
+.icons img{
+    width: 40px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
